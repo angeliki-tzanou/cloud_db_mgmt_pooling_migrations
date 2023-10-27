@@ -11,13 +11,11 @@ from sqlalchemy import create_engine, inspect, Column, Integer, String, Date, Fo
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
-
-print('Here is the ', os.getenv("DB_URL"))
-
-databaseURL = os.getenv("DB_URL")
+#load_dotenv()
+#print('Here is the ', os.getenv("DB_URL"))
+#databaseURL = os.getenv("DB_URL")
 
 Base = declarative_base()
 
@@ -29,7 +27,7 @@ class Patient(Base):
     last_name = Column(String(50), nullable=False)
     date_of_birth = Column(Date, nullable=False)
     gender = Column(String(10), nullable=False)
-    contact_number = Column(String(15))
+    contact_number = Column(String(100))
 
     records = relationship('MedicalRecord', back_populates='patient')
 
@@ -48,7 +46,7 @@ class MedicalRecord(Base):
 
 ### Part 2 - initial sqlalchemy-engine to connect to db:
 
-engine = create_engine("mysql+pymysql://hants:sbu-admin-2023@hants-migrations-test.mysql.database.azure.com/hants",
+engine = create_engine("mysql+pymysql://ang:tza504!!@ang504-migrations.mysql.database.azure.com/ang",
                          connect_args={'ssl': {'ssl-mode': 'preferred'}},
                          )
 
