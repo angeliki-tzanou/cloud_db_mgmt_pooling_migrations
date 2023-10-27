@@ -3,13 +3,13 @@ CREATE TABLE alembic_version (
     CONSTRAINT alembic_version_pkc PRIMARY KEY (version_num)
 );
 
--- Running upgrade  -> b29827d7b2ae
+-- Running upgrade  -> ab50bfbf4658
 
-INSERT INTO alembic_version (version_num) VALUES ('b29827d7b2ae');
+INSERT INTO alembic_version (version_num) VALUES ('ab50bfbf4658');
 
--- Running upgrade b29827d7b2ae -> 07c3178e6064
+-- Running upgrade ab50bfbf4658 -> ce218e364886
 
 ALTER TABLE patients ADD COLUMN is_alive VARCHAR(50) NOT NULL;
 
-UPDATE alembic_version SET version_num='07c3178e6064' WHERE alembic_version.version_num = 'b29827d7b2ae';
+UPDATE alembic_version SET version_num='ce218e364886' WHERE alembic_version.version_num = 'ab50bfbf4658';
 
