@@ -13,6 +13,8 @@
                          connect_args={'ssl': {'ssl-mode': 'preferred'}},
                          )```
     - We can ensure that we connected to our database accurately by using the commands ```inspector = inspect(engine) & inspector.get_table_names()``` and we get as a result an empty [] it would mean that it displays our empty database without any table since we have not run the code of the tables yet. After doing so it should also display the tables created.
+      <img width="1000" alt="Screenshot 2023-10-27 at 2 25 37 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/30d231e4-a9ed-4086-8a89-875d687a1588">
+
 - We can log into our MySQL by using the command above in our terminal, then from there pick the database we want to use (that we have previously created through Azure and GCP platform) through the ```use _databasename_;```
 - Then we can see the tables being successfully created by running ```show tables;```
 <img width="953" alt="Screenshot 2023-10-27 at 5 24 01 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/1ad4dfd3-ed05-4415-bde3-9a0797a567eb">
@@ -40,7 +42,12 @@
 <img width="1000" alt="Screenshot 2023-10-27 at 8 30 36 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/05e4cd36-c716-49ed-86dc-df3e9a26e057">
 
 ### Database Migrations with Alembic:
-- 
+- Running the following commands in the terminal should ensure a seamless migration connection with both databases
+- First, we would run simply ```alembic```
+- Then would run ```alembic init migrations```
+- Then in order to authorize and edit the alembic.ini to point to our database
+```sqlalchemy.url = mysql+mysqlconnector://username:password@host/database_name```
+- Then within our env.py file that was automatically generated we should go back in there and 
 
 
 
