@@ -12,4 +12,4 @@
 - Within our code we ensured that we had the command line for authorizing access when provided with the correct information ```engine = create_engine("mysql+pymysql://username:password@host/databasename",
                          connect_args={'ssl': {'ssl-mode': 'preferred'}},
                          )```
-- 
+    - We can ensure that we connected to our database accurately by using the commands ```inspector = inspect(engine) & inspector.get_table_names()``` and we get as a result an empty [] it would mean that it displays our empty database without any table since we have not created them yet.
