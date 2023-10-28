@@ -12,7 +12,7 @@
 - Within our code we ensured that we had the command line for authorizing access when provided with the correct information ```engine = create_engine("mysql+pymysql://username:password@host/databasename",
                          connect_args={'ssl': {'ssl-mode': 'preferred'}},
                          )```
-    - We can ensure that we connected to our database accurately by using the commands ```inspector = inspect(engine) & inspector.get_table_names()``` and we get as a result an empty [] it would mean that it displays our empty database without any table since we have not ran the code of the tables yet. After doing so it should also display the tables created.
+    - We can ensure that we connected to our database accurately by using the commands ```inspector = inspect(engine) & inspector.get_table_names()``` and we get as a result an empty [] it would mean that it displays our empty database without any table since we have not run the code of the tables yet. After doing so it should also display the tables created.
 - We can log into our MySQL by using the command above in our terminal, then from there pick the database we want to use (that we have previously created through Azure and GCP platform) through the ```use _databasename_;```
 - Then we can see the tables being successfully created by running ```show tables;```
 <img width="953" alt="Screenshot 2023-10-27 at 5 24 01 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/1ad4dfd3-ed05-4415-bde3-9a0797a567eb">
@@ -20,12 +20,13 @@
 ### Workbench MySQL to Generate ERD:
 - Then to proceed and connect our Azure and GCP with the workbench
 - We create an instance and fill in the information based on the ones included in our database setup for each like the images shown below:
+  
   <img width="700" alt="Screenshot 2023-10-27 at 3 55 46 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/114ea448-641e-458f-83a3-f97e8d2cc2b4">
   <img width="700" alt="Screenshot 2023-10-27 at 3 56 20 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/1aa2fb0d-1de8-4854-a8e0-233beec0825a">
 - Then we repeat the same steps for GCP as well:
-  <img width="609" alt="Screenshot 2023-10-27 at 5 59 27 PM" src="https://github.com/angeliki-
-  <img width="833" alt="Screenshot 2023-10-27 at 5 59 20 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/3028add1-19a8-4701-a0c8-d3abdc9a5a17">
-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/e899a82b-c0a8-4056-afba-02c4fbf8c599">
+ <img width="609" alt="Screenshot 2023-10-27 at 5 59 27 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/ef4e74bf-bbb8-4348-8c9d-541427fab436">
+<img width="833" alt="Screenshot 2023-10-27 at 5 59 20 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/ca97121d-1b2c-40bd-b0db-5141b7e7cc35">
+
 
 
   
