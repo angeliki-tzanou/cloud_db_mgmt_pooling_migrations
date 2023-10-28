@@ -19,5 +19,14 @@
 
 ### Workbench MySQL to Generate ERD:
 - Then to proceed and connect our Azure and GCP with the workbench
-- We create an instance and fill in with the information based on the ones inlcuded in our database setup for each like the images shown below:
-- 
+- We create an instance and fill in the information based on the ones included in our database setup for each like the images shown below:
+  <img width="700" alt="Screenshot 2023-10-27 at 3 55 46 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/114ea448-641e-458f-83a3-f97e8d2cc2b4">
+  <img width="700" alt="Screenshot 2023-10-27 at 3 56 20 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/1aa2fb0d-1de8-4854-a8e0-233beec0825a">
+- Then we repeat the same steps for GCP as well:
+  <img width="609" alt="Screenshot 2023-10-27 at 5 59 27 PM" src="https://github.com/angeliki-
+  <img width="833" alt="Screenshot 2023-10-27 at 5 59 20 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/3028add1-19a8-4701-a0c8-d3abdc9a5a17">
+tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/e899a82b-c0a8-4056-afba-02c4fbf8c599">
+
+
+  
+
