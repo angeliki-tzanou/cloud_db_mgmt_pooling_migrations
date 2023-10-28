@@ -33,6 +33,13 @@
 
 <img width="1000" alt="Screenshot 2023-10-27 at 3 53 47 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/c5809909-1bb1-44d1-b798-a9f48ea48d75">
 
+### SQL Alchemy & FLask Integration:
+- While trying to create a Flask application that would rely on the information of the tables that were provided in the databases already, I ran into a couple of issues:
+- First, when trying to create a simple flask application code which included the app.py, & the html file, the flask app would not deploy after trying multiple templates of codes and changing the whole structure of the application
+- The error message shown below was being shown persistently:
+  <img width="1000" alt="Screenshot 2023-10-27 at 8 30 36 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/ba99919d-8a66-402c-ae90-6ec39e51bec0">
+
+
 
 
   
