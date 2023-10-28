@@ -31,6 +31,9 @@
   
 <img width="1000" alt="Screenshot 2023-10-27 at 6 00 23 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/b939ec8e-4641-418a-8f8c-f5eed3f95d97">
 
+<img width="1000" alt="Screenshot 2023-10-27 at 3 53 47 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/c5809909-1bb1-44d1-b798-a9f48ea48d75">
+
+
 
   
 
