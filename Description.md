@@ -53,7 +53,9 @@
   
 <img width="279" alt="Screenshot 2023-10-27 at 10 18 32 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/7afbcc53-c756-44eb-bde3-084327689f0c">
 
-
+- Then we can go ahead and run the migration by using ``` alembic upgrade head```
+- Lastly to save can use the following:
+  ``` alembic upgrade head --sql > migration.sql ```
 
 
   
