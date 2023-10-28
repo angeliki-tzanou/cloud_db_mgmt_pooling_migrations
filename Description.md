@@ -26,8 +26,9 @@
 - Then we repeat the same steps for GCP as well:
  <img width="609" alt="Screenshot 2023-10-27 at 5 59 27 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/ef4e74bf-bbb8-4348-8c9d-541427fab436">
 <img width="833" alt="Screenshot 2023-10-27 at 5 59 20 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/ca97121d-1b2c-40bd-b0db-5141b7e7cc35">
+
 - Then we can go ahead and create our ERD for each as also shown below:
-- 
+  
 <img width="1000" alt="Screenshot 2023-10-27 at 6 00 23 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/b939ec8e-4641-418a-8f8c-f5eed3f95d97">
 
 
