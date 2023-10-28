@@ -1,10 +1,9 @@
 from flask import render_template
 from sqlalchemy import create_engine, inspect
 
-from app_gcp import app_gcp  # Import the Flask app instance from app_gcp.py
+from app_gcp import app_gcp 
 
-# Replace with your GCP database connection details
-gcp_db_uri = "mysql+pymysql://username:password@hostname/database_name"
+gcp_db_uri = "mysql+pymysql://root:tza504!!@34.170.238.2/ang"
 
 engine = create_engine(gcp_db_uri)
 
