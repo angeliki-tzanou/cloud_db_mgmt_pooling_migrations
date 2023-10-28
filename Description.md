@@ -12,4 +12,12 @@
 - Within our code we ensured that we had the command line for authorizing access when provided with the correct information ```engine = create_engine("mysql+pymysql://username:password@host/databasename",
                          connect_args={'ssl': {'ssl-mode': 'preferred'}},
                          )```
-    - We can ensure that we connected to our database accurately by using the commands ```inspector = inspect(engine) & inspector.get_table_names()``` and we get as a result an empty [] it would mean that it displays our empty database without any table since we have not created them yet.
+    - We can ensure that we connected to our database accurately by using the commands ```inspector = inspect(engine) & inspector.get_table_names()``` and we get as a result an empty [] it would mean that it displays our empty database without any table since we have not ran the code of the tables yet. After doing so it should also display the tables created.
+- We can log into our MySQL by using the command above in our terminal, then from there pick the database we want to use (that we have previously created through Azure and GCP platform) through the ```use _databasename_;```
+- Then we can see the tables being successfully created by running ```show tables;```
+<img width="953" alt="Screenshot 2023-10-27 at 5 24 01 PM" src="https://github.com/angeliki-tzanou/cloud_db_mgmt_pooling_migrations/assets/141374140/1ad4dfd3-ed05-4415-bde3-9a0797a567eb">
+
+### Workbench MySQL to Generate ERD:
+- Then to proceed and connect our Azure and GCP with the workbench
+- We create an instance and fill in with the information based on the ones inlcuded in our database setup for each like the images shown below:
+- 
